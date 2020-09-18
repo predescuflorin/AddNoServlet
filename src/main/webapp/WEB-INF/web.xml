@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app>
+  <servlet>
+    <servlet-name>AddNumbers</servlet-name>
+    <servlet-class>addnumbers.AddNumbers</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>AddNumbers</servlet-name>
+    <url-pattern>/add</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>SquareNumbers</servlet-name>
+    <servlet-class>addnumbers.SquareNumbers</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>SquareNumbers</servlet-name>
+    <url-pattern>/square</url-pattern>
+  </servlet-mapping>
+
+
+  <servlet>
+    <servlet-name>MultiplyNumbers</servlet-name>
+    <servlet-class>multiplynumbers.MultiplyNumbers</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>MultiplyNumbers</servlet-name>
+    <url-pattern>/multiply</url-pattern>
+  </servlet-mapping>
+</web-app>
